@@ -6,7 +6,7 @@ import { MapPin, FileDown, Github, Linkedin, Mail, Copy } from 'lucide-react';
 
 export default function ProfileHero() {
     return (
-        <div className="bg-muted border p-4 shadow-sm rounded-xl">
+        <div className="bg-muted border p-4 shadow-sm rounded-xl w-full max-w-xl">
             <div className="flex flex-col gap-2">
                 <div className="flex flex-row justify-between">
                     <div className="flex gap-2">          
