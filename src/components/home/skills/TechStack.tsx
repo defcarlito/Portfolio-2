@@ -19,21 +19,21 @@ export default function TeckStack() {
             </div>
           ))}
         </div>
-        <div className="bg-primary-foreground flex flex-wrap w-fit h-fit max-w-lg border p-4 rounded-sm shadow-sm gap-2">
+        <div className="bg-primary-foreground flex flex-wrap w-fit h-fit max-w-lg border p-4 rounded-lg shadow-sm gap-2">
           {stack.map((item, index) => (
             <div
               key={index}
-              className="bg-card border p-2 rounded-lg text-sm shadow-sm"
+              className="bg-card border p-2 rounded-sm text-sm shadow-sm"
             >
               {item.name}
             </div>
           ))}
         </div>
-        <div className="bg-primary-foreground flex flex-wrap w-fit h-fit max-w-lg border p-4 rounded-sm shadow-sm gap-2">
+        <div className="bg-primary-foreground flex flex-wrap w-fit h-fit max-w-lg border p-4 rounded-lg shadow-sm gap-2">
           {stack.map((item, index) => (
             <div
               key={index}
-              className="bg-card border p-2 rounded-lg text-sm shadow-sm"
+              className="bg-card border p-2 rounded-sm text-sm shadow-sm"
             >
               {item.name}
             </div>
