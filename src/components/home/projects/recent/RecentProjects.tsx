@@ -3,7 +3,7 @@ import { MoveRight } from "lucide-react"
 
 export default function RecentProjects() {
   return (
-    <div className="bg-muted border p-4 shadow-sm rounded-xl w-full max-w-xl flex flex-col gap-2">
+    <div className="bg-primary-foreground border p-4 shadow-sm rounded-xl w-full max-w-xl flex flex-col gap-2">
       <div className="bg-card border h-fit p-4 rounded-lg shadow-sm flex justify-between items-center">
         <h1 className="text-2xl font-medium">Recent Projects</h1>
         <Button variant="link" className="p-0 text-muted-foreground">
