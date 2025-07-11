@@ -2,6 +2,15 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import { Copy, FileDown, Github, Linkedin, Mail, MapPin } from "lucide-react"
 
 export default function ProfileHero() {
@@ -28,7 +37,7 @@ export default function ProfileHero() {
           <div className="flex flex-row gap-6">
             <div>
               <Avatar className="h-42 w-42 shadow-sm">
-                <AvatarImage src="me.jpg" className="scale-300"/>
+                <AvatarImage src="me.jpg" className="scale-300" />
                 <AvatarFallback>Me</AvatarFallback>
               </Avatar>
             </div>
@@ -51,12 +60,18 @@ export default function ProfileHero() {
           </Button>
         </div>
       </div>
-      <div className="bg-card border h-fit p-4 rounded-lg shadow-sm">
-        <h1 className="flex flex-col gap-2 font-medium text-xl">About Me</h1>
-        <p className="font-normal text-sm text-muted-foreground">
-          I am a student studying Computer Science at the University of Saint
-          Thomas in St. Paul, Minnesota.
-        </p>
+      <div>
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl font-normal">About me</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-muted-foreground">
+              I am an incoming 4th year studying Computer Science at the
+              University of Saint Thomas in Saint Paul, Minnesota.
+            </p>
+          </CardContent>
+        </Card>
       </div>
     </div>
   )

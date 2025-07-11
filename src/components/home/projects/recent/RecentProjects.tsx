@@ -26,7 +26,7 @@ export default function RecentProjects() {
             <CardTitle>Rocket League Tracker</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>
+            <p className="text-muted-foreground">
               A dashboard to display my in game stats that uses a custom
               BakkesMod plugin for the game Rocket League.
             </p>
@@ -44,7 +44,7 @@ export default function RecentProjects() {
             <CardTitle>Lyric Translator</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>
+            <p className="text-muted-foreground">
               A platform to build collections vocab words in your target
               language from song lyrics and export them to flashcard apps.
             </p>
