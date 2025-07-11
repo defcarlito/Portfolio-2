@@ -1,4 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import ExperienceTimeline from "./experience/ExperienceTimeline"
+import EducationTimeline from "./school/EducationTimeline"
 
 export default function ExperieceEducation() {
   return (
@@ -12,10 +14,14 @@ export default function ExperieceEducation() {
 						</TabsList>
 					</div>
           <TabsContent value="experience" className="w-full">
-            <div className="bg-card shadow-sm border p-4 rounded-lg">experience</div>
+            <div className="bg-card shadow-sm border p-4 rounded-lg">
+							<ExperienceTimeline />
+						</div>
           </TabsContent>
           <TabsContent value="education" className="w-full">
-            <div className="bg-card shadow-sm border p-4 rounded-lg">education</div>
+            <div className="bg-card shadow-sm border p-4 rounded-lg">
+							<EducationTimeline />
+						</div>
           </TabsContent>
         </Tabs>
       </div>
