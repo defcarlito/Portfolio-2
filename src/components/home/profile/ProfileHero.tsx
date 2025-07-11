@@ -27,8 +27,8 @@ export default function ProfileHero() {
         <div className="bg-card border h-fit py-6 px-12 rounded-lg shadow-sm">
           <div className="flex flex-row gap-6">
             <div>
-              <Avatar className="h-42 w-42">
-                <AvatarImage src="https://github.com/shadcn.png" />
+              <Avatar className="h-42 w-42 shadow-sm">
+                <AvatarImage src="me.jpg" className="scale-300"/>
                 <AvatarFallback>Me</AvatarFallback>
               </Avatar>
             </div>

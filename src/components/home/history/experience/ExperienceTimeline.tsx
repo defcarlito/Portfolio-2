@@ -6,10 +6,10 @@ export default function ExperienceTimeline() {
     <div className="flex flex-col gap-4">
       <div className="flex flex-row gap-4">
         <div className="flex flex-col w-fit relative">
-          <Separator orientation="vertical" className="self-center absolute top-7.5 bg-primary"/>
-          <Avatar className="w-10 h-10">
+          <Separator orientation="vertical" className="self-center absolute top-7.5 bg-border"/>
+          <Avatar className="w-10 h-10 ">
             <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarFallback>Logo</AvatarFallback>
           </Avatar>
         </div>
         <div className="w-full">
@@ -34,7 +34,7 @@ export default function ExperienceTimeline() {
         <div className="flex flex-col w-fit relative">
           <Avatar className="w-10 h-10">
             <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarFallback>Logo</AvatarFallback>
           </Avatar>
         </div>
         <div className="w-full">
