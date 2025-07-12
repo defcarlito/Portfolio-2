@@ -4,10 +4,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -19,16 +17,19 @@ export default function ProfileHero() {
       <div className="flex flex-col gap-2">
         <div className="flex flex-row justify-between">
           <div className="flex gap-2">
-						<a href="https://github.com/defcarlito" target="_blank">
-							<Button size="icon" variant="outline">
-								<Github />
-							</Button>
-						</a>
-						<a href="https://www.linkedin.com/in/harrison-amorim-b1476326b/" target="_blank">
-							<Button size="icon" variant="outline">
-								<Linkedin />
-							</Button>
-						</a>
+            <a href="https://github.com/defcarlito" target="_blank">
+              <Button size="icon" variant="outline">
+                <Github />
+              </Button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/harrison-amorim-b1476326b/"
+              target="_blank"
+            >
+              <Button size="icon" variant="outline">
+                <Linkedin />
+              </Button>
+            </a>
           </div>
           <div>
             <Button size="icon" variant="outline">
@@ -72,17 +73,17 @@ export default function ProfileHero() {
           </CardHeader>
           <CardContent>
             <CardDescription>
-							I am an incoming 4th year studying Computer Science at the{" "}
+              I am an incoming 4th year studying Computer Science at the{" "}
               <a
                 href="https://www.stthomas.edu/"
                 className="text-primary underline hover:text-accent-foreground"
-								target="_blank"
+                target="_blank"
               >
                 University of Saint Thomas
               </a>{" "}
               in Saint Paul, Minnesota. I was born in the States, then spent
               some time in São Paulo, Brazil.
-						</CardDescription>
+            </CardDescription>
           </CardContent>
         </Card>
       </div>
