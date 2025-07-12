@@ -13,7 +13,7 @@ import { Copy, FileDown, Github, Linkedin, Mail, MapPin } from "lucide-react"
 
 export default function ProfileHero() {
   return (
-    <div className="bg-card-background border p-4 shadow-sm rounded-xl w-full max-w-xl flex flex-col gap-4">
+    <div className="bg-background border p-4 shadow-sm rounded-xl w-full max-w-xl flex flex-col gap-4">
       <div className="flex flex-col gap-2">
         <div className="flex flex-row justify-between">
           <div className="flex gap-2">
