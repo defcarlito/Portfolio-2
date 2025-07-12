@@ -47,7 +47,7 @@ export default function ProfileHero() {
               </Avatar>
             </div>
             <div className="flex flex-col items-start justify-center gap-1">
-              <h1 className="text-2xl font-medium">Hey, I'm Harrison 👋🏼</h1>
+              <h1 className="text-2xl font-medium">{"Hey, I'm Harrison 👋🏼"}</h1>
               <div className="flex flex-row items-center gap-1 ml-[-2] text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4" />
                 <p>St. Paul, Minnesota</p>
