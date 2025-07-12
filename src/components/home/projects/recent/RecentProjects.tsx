@@ -26,10 +26,10 @@ export default function RecentProjects() {
             <CardTitle>Rocket League Tracker</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-muted-foreground">
+            <CardDescription>
               A dashboard to display my in game stats that uses a custom
               BakkesMod plugin for the game Rocket League.
-            </p>
+            </CardDescription>
           </CardContent>
           <CardFooter className="gap-2">
             <Badge>TypeScript</Badge>
@@ -44,10 +44,10 @@ export default function RecentProjects() {
             <CardTitle>Lyric Translator</CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-muted-foreground">
+            <CardDescription>
               A platform to build collections vocab words in your target
               language from song lyrics and export them to flashcard apps.
-            </p>
+            </CardDescription>
           </CardContent>
           <CardFooter className="gap-2">
             <Badge>TypeScript</Badge>

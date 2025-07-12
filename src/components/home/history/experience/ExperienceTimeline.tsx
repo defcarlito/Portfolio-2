@@ -23,9 +23,9 @@ export default function ExperienceTimeline() {
               <h1 className="text-muted-foreground">Rochester, Minnesota</h1>
             </div>
           </div>
-          <div className="text-muted-foreground pl-2">
+          <div className="text-muted-foreground text-sm p-2">
             <p>- this is a bullet point</p>
-            <p>- this is a bullet point</p>
+            <p>- this is a very very very long bullet point to test what happens to very long bullet points</p>
             <p>- this is a bullet point</p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function ExperienceTimeline() {
               <h1 className="text-muted-foreground">Remote</h1>
             </div>
           </div>
-          <div className="text-muted-foreground pl-2">
+          <div className="text-muted-foreground text-sm p-2">
             <p>- this is a bullet point</p>
             <p>- this is a bullet point</p>
             <p>- this is a bullet point</p>
