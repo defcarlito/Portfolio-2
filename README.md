@@ -1,3 +1,1 @@
-## About
-
 My portfolio website.
