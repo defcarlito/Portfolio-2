@@ -8,17 +8,18 @@ export default function TeckStack() {
     { name: "Tailwind CSS" },
     { name: "Next.js" },
     { name: "Shadcn UI" },
+    { name: "Chakra UI" },
   ]
 	
   const backend = [
     { name: "Python" },
-    { name: "Java" },
-    { name: "C" },
+		{ name: "Node.js" },
+		{ name: "Flask" },
   ]
 
   const database = [
-    { name: "PostgreSQL" },
     { name: "Firebase" },
+    { name: "PostgreSQL" },
     { name: "Supabase" },
   ]
 

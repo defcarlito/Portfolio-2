@@ -5,9 +5,9 @@ export default function EducationTimeline() {
     <div className="flex flex-col gap-4">
       <div className="flex flex-row gap-4">
         <div className="flex flex-col w-fit relative">
-          <Avatar className="w-10 h-10">
-            <AvatarImage src="https://github.com/shadcn.png" />
-            <AvatarFallback>CN</AvatarFallback>
+          <Avatar className="w-10 h-10 rounded-md">
+            <AvatarImage src="ust-logo.png" className="object-contain bg-white p-1"/>
+            <AvatarFallback>Logo</AvatarFallback>
           </Avatar>
         </div>
         <div className="w-full">

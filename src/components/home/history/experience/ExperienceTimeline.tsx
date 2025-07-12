@@ -6,9 +6,12 @@ export default function ExperienceTimeline() {
     <div className="flex flex-col gap-4">
       <div className="flex flex-row gap-4">
         <div className="flex flex-col w-fit relative">
-          <Separator orientation="vertical" className="self-center absolute top-7.5 bg-border"/>
-          <Avatar className="w-10 h-10 ">
-            <AvatarImage src="https://github.com/shadcn.png" />
+          <Separator
+            orientation="vertical"
+            className="self-center absolute top-7.5 bg-border"
+          />
+          <Avatar className="w-10 h-10 rounded-md">
+            <AvatarImage src="mayo-clinic-logo.svg" className="bg-white py-1.5" />
             <AvatarFallback>Logo</AvatarFallback>
           </Avatar>
         </div>
@@ -23,17 +26,23 @@ export default function ExperienceTimeline() {
               <h1 className="text-muted-foreground">Rochester, Minnesota</h1>
             </div>
           </div>
-          <div className="text-muted-foreground text-sm p-2">
-            <p>- this is a bullet point</p>
-            <p>- this is a very very very long bullet point to test what happens to very long bullet points</p>
-            <p>- this is a bullet point</p>
+          <div className="flex flex-col gap-2 text-muted-foreground text-sm p-2">
+            <p>
+              • Provided technical support for hardware, software, and network
+              issues across clinical departments within the Rochester Campus.
+            </p>
+            <p>
+              • Troubleshot and resolved IT service requests, collaborating with
+              clinicians partly in high-stake settings to meet the needs of a
+              fast-paced hospital.
+            </p>
           </div>
         </div>
       </div>
       <div className="flex flex-row gap-4">
         <div className="flex flex-col w-fit relative">
-          <Avatar className="w-10 h-10">
-            <AvatarImage src="https://github.com/shadcn.png" />
+          <Avatar className="w-10 h-10 rounded-md">
+            <AvatarImage src="mayo-clinic-logo.svg" className="bg-white py-1.5" />
             <AvatarFallback>Logo</AvatarFallback>
           </Avatar>
         </div>
@@ -48,10 +57,19 @@ export default function ExperienceTimeline() {
               <h1 className="text-muted-foreground">Remote</h1>
             </div>
           </div>
-          <div className="text-muted-foreground text-sm p-2">
-            <p>- this is a bullet point</p>
-            <p>- this is a bullet point</p>
-            <p>- this is a bullet point</p>
+          <div className="flex flex-col gap-2 text-muted-foreground text-sm p-2">
+            <p>
+              • Researched and developed synthetic data strategies to support
+              model reliability.
+            </p>
+            <p>
+              • Investigated the role of high-quality synthetic data in
+              enhancing AI model performance for radiological report tasks.
+            </p>
+            <p>
+              • Contributed to efforts in improving model performance while
+              protecting patient data through non-identifiable datasets.
+            </p>
           </div>
         </div>
       </div>

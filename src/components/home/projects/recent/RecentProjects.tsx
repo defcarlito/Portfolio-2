@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { Separator } from "@/components/ui/separator"
 import { MoveRight } from "lucide-react"
 
 export default function RecentProjects() {
@@ -23,30 +24,46 @@ export default function RecentProjects() {
       <div className="flex flex-wrap w-full gap-2">
         <Card className="flex-1">
           <CardHeader>
-            <CardTitle>Rocket League Tracker</CardTitle>
+            <CardTitle>Personal Rocket League Performance Tracker</CardTitle>
           </CardHeader>
           <CardContent>
             <CardDescription>
-              A dashboard to display my in game stats that uses a custom
-              BakkesMod plugin for the game Rocket League.
+              A full-stack{" "}
+              <a
+                href="https://arc.net/l/quote/ktvvchzu"
+                className="text-primary underline hover:text-accent-foreground"
+                target="_blank"
+              >
+                Rocket League
+              </a>{" "}
+              analytics app that extracts post-match data via a custom{" "}
+              <a
+                href="https://arc.net/l/quote/yzfrbqfl"
+                className="text-primary underline hover:text-accent-foreground"
+                target="_blank"
+              >
+                BakkesMod
+              </a>{" "}
+              plugin and displays performance trends.
             </CardDescription>
           </CardContent>
           <CardFooter className="gap-2">
+            <Badge>C++</Badge>
+            <Badge>Python</Badge>
             <Badge>TypeScript</Badge>
             <Badge>React</Badge>
             <Badge>Next.js</Badge>
-            <Badge>Python</Badge>
-            <Badge>C++</Badge>
           </CardFooter>
         </Card>
         <Card className="flex-1">
           <CardHeader>
-            <CardTitle>Lyric Translator</CardTitle>
+            <CardTitle>Language Learning Tool Through Songs</CardTitle>
           </CardHeader>
           <CardContent>
             <CardDescription>
-              A platform to build collections vocab words in your target
-              language from song lyrics and export them to flashcard apps.
+              An app to quickly build a collection of vocabulary words from
+              songs lyrics in your target language and extract them to a
+              flashcard platform like Quizlet.
             </CardDescription>
           </CardContent>
           <CardFooter className="gap-2">
