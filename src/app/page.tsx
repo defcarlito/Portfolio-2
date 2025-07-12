@@ -8,16 +8,16 @@ import { CodeXml } from 'lucide-react';
 export default function Home() {
   return (
     <div className="flex w-screen justify-center">
-      <div className="flex flex-col w-full max-w-4xl items-center justify-center md:py-20">
-        <div className="flex flex-col items-center gap-8 md:border bg-primary-foreground md:p-16 p-2 rounded-2xl">
+      <div className="flex flex-col w-full max-w-4xl items-center justify-center">
+        <div className="flex flex-col items-center gap-8 bg-primary-foreground md:p-16 p-2 rounded-2xl">
           <ProfileHero />
           <ExperieceEducation />
           <TechStack />
           <RecentProjects />
+          <a href="https://github.com/defcarlito/Portfolio-2" target="_blank">
+            <Button variant="link" size="icon" className="text-muted-foreground">This Site<CodeXml /></Button>
+          </a>
         </div>
-        <a href="https://github.com/defcarlito/Portfolio-2" target="_blank">
-          <Button variant="link" size="icon" className="text-muted-foreground">This Site<CodeXml /></Button>
-        </a>
       </div>
     </div>
   )
