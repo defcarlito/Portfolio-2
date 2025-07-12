@@ -62,8 +62,16 @@ export default function RecentProjects() {
           <CardContent>
             <CardDescription>
               An app to quickly build a collection of vocabulary words from
-              songs lyrics in your target language and extract them to a
-              flashcard platform like Quizlet.
+              songs lyrics in your target language and extract them flashcard
+              platforms like{" "}
+              <a
+                href="https://quizlet.com/"
+                className="text-primary underline hover:text-accent-foreground"
+                target="_blank"
+              >
+                Quizlet
+              </a>
+              .
             </CardDescription>
           </CardContent>
           <CardFooter className="gap-2">
