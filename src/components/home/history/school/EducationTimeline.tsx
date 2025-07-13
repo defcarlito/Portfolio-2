@@ -12,9 +12,9 @@ export default function EducationTimeline() {
         </div>
         <div className="w-full">
           <div className="items-center">
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between items-center">
               <h1 className="font-bold">University of St. Thomas</h1>
-              <h1 className="text-muted-foreground">Grad - May 2026</h1>
+              <h1 className="text-muted-foreground md:text-sm text-xs">Grad - May 2026</h1>
             </div>
             <div className="flex flex-row justify-between text-sm">
               <h1>BS - Computer Science</h1>
