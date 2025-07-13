@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import ExperienceTimeline from "./experience/ExperienceTimeline"
 import EducationTimeline from "./school/EducationTimeline"
+import { Briefcase, GraduationCap } from 'lucide-react'
 
 export default function ExperieceEducation() {
   return (
@@ -9,8 +10,8 @@ export default function ExperieceEducation() {
         <Tabs defaultValue="experience" className="items-center flex flex-col gap-4">
 					<div className=" w-full bg-card border p-4 rounded-lg">
 						<TabsList className="w-full">
-							<TabsTrigger value="experience">Experience</TabsTrigger>
-							<TabsTrigger value="education">Education</TabsTrigger>
+							<TabsTrigger value="experience"><Briefcase/>Experience</TabsTrigger>
+							<TabsTrigger value="education"><GraduationCap />Education</TabsTrigger>
 						</TabsList>
 					</div>
           <TabsContent value="experience" className="w-full">
