@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex w-screen justify-center">
       <div className="flex flex-col w-full max-w-4xl items-center justify-center">
-        <div className="flex flex-col items-center gap-8 md:p-16 p-2 rounded-2xl">
+        <div className="flex flex-col items-center gap-8 md:p-10 p-2 w-full h-full">
           <ProfileHero />
           <ExperieceEducation />
           <TechStack />

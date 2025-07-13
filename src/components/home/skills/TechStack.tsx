@@ -25,8 +25,8 @@ export default function TeckStack() {
 
   return (
     <div className="flex flex-col w-full max-w-xl bg-primary-foreground border p-4 rounded-xl">
-      <div className="flex flex-row gap-2">
-        <div className="bg-card flex flex-col w-fit h-full border p-4 rounded-lg shadow-sm gap-4 flex-1">
+      <div className="flex flex-col md:flex-row gap-2">
+        <div className="bg-card flex flex-col w-full h-full border p-4 rounded-lg shadow-sm gap-4 flex-1">
           <div className="flex items-center gap-2">
 						<Zap className="w-4 h-4"/>
 						<p>Frontend</p>
@@ -43,7 +43,7 @@ export default function TeckStack() {
             ))}
           </div>
         </div>
-        <div className="bg-card flex flex-col w-fit h-full border p-4 rounded-lg shadow-sm gap-4 flex-1">
+        <div className="bg-card flex flex-col w-full h-full border p-4 rounded-lg shadow-sm gap-4 flex-1">
           <div className="flex items-center gap-2">
 						<Zap className="w-4 h-4"/>
 						<p>Backend</p>
@@ -60,7 +60,7 @@ export default function TeckStack() {
             ))}
           </div>
         </div>
-        <div className="bg-card flex flex-col w-fit h-full border p-4 rounded-lg shadow-sm gap-4 flex-1">
+        <div className="bg-card flex flex-col w-full h-full border p-4 rounded-lg shadow-sm gap-4 flex-1">
           <div className="flex items-center gap-2">
 						<Zap className="w-4 h-4"/>
 						<p>Database</p>

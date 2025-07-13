@@ -38,7 +38,7 @@ export default function ProfileHero() {
             </Button>
           </div>
         </div>
-        <div className="bg-card border h-fit md:py-6 py-4 md:px-12 px-6 rounded-lg shadow-sm">
+        <div className="bg-card border h-fit md:py-6 md:px-12 p-4 rounded-lg shadow-sm">
           <div className="flex flex-row gap-6 items-center justify-center">
             <div>
               <Avatar className="h-42 w-42 rounded-lg shadow-sm hover:scale-125 hover:shadow-2xl transofrm transition duration-500">

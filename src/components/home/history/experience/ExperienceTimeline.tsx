@@ -17,13 +17,13 @@ export default function ExperienceTimeline() {
         </div>
         <div className="w-full">
           <div className="items-center">
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between items-center">
               <h1 className="font-bold">IT Technician</h1>
-              <h1 className="text-muted-foreground">Jun. 2023 - Present</h1>
+              <h1 className="text-muted-foreground md:text-sm text-xs">Jun. 2023 - Present</h1>
             </div>
-            <div className="flex flex-row justify-between text-sm">
+            <div className="flex flex-row justify-between text-sm items-center">
               <h1>Mayo Clinic</h1>
-              <h1 className="text-muted-foreground">Rochester, Minnesota</h1>
+              <h1 className="text-muted-foreground text-xs">Rochester, Minnesota</h1>
             </div>
           </div>
           <div className="flex flex-col gap-2 text-muted-foreground text-sm p-2">
@@ -48,13 +48,13 @@ export default function ExperienceTimeline() {
         </div>
         <div className="w-full">
           <div className="items-center">
-            <div className="flex flex-row justify-between">
+            <div className="flex justify-between items-center">
               <h1 className="font-bold">Data Science Intern</h1>
-              <h1 className="text-muted-foreground">Jun. 2024 - Aug. 2024</h1>
+              <h1 className="text-muted-foreground md:text-sm text-xs">Jun. 2024 - Aug. 2024</h1>
             </div>
-            <div className="flex flex-row justify-between text-sm">
+            <div className="flex flex-row justify-between text-sm items-center">
               <h1>Mayo Clinic</h1>
-              <h1 className="text-muted-foreground">Remote</h1>
+              <h1 className="text-muted-foreground text-xs">Remote</h1>
             </div>
           </div>
           <div className="flex flex-col gap-2 text-muted-foreground text-sm p-2">

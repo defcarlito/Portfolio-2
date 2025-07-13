@@ -3,7 +3,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Harrison - Home",
-  description: "The portfolio of Harrison Amorim.",
+  description: "Harrison Amorim's personal website.",
 }
 
 export default function RootLayout({

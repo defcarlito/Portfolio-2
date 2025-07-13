@@ -19,8 +19,8 @@ export default function RecentProjects() {
           View more <MoveRight />
         </Button>
       </div>
-      <div className="flex flex-wrap w-full gap-2">
-        <Card className="flex-1">
+      <div className="flex flex-col w-full gap-2">
+        <Card className="flex-1 w-full">
           <CardHeader>
             <CardTitle>Personal Rocket League Performance Tracker</CardTitle>
           </CardHeader>
@@ -45,7 +45,7 @@ export default function RecentProjects() {
               plugin and displays performance trends.
             </CardDescription>
           </CardContent>
-          <CardFooter className="gap-2">
+          <CardFooter className="gap-2 flex-wrap">
             <Badge>C++</Badge>
             <Badge>Python</Badge>
             <Badge>TypeScript</Badge>
@@ -53,7 +53,7 @@ export default function RecentProjects() {
             <Badge>Next.js</Badge>
           </CardFooter>
         </Card>
-        <Card className="flex-1">
+        <Card className="flex-1 w-full">
           <CardHeader>
             <CardTitle>Language Learning Tool Through Songs</CardTitle>
           </CardHeader>
@@ -72,7 +72,7 @@ export default function RecentProjects() {
               .
             </CardDescription>
           </CardContent>
-          <CardFooter className="gap-2">
+          <CardFooter className="gap-2 flex-wrap">
             <Badge>TypeScript</Badge>
             <Badge>React</Badge>
             <Badge>Next.js</Badge>
