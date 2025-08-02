@@ -5,7 +5,7 @@ import { Briefcase, GraduationCap } from 'lucide-react'
 
 export default function ExperieceEducation() {
   return (
-    <div className="bg-primary-foreground border p-4 shadow-sm rounded-xl w-full max-w-xl">
+    <div className="bg-primary-foreground border p-3 shadow-sm rounded-xl w-full max-w-xl">
       <div className="h-fit">
         <Tabs defaultValue="experience" className="items-center flex flex-col gap-4">
 					<div className=" w-full bg-card border p-4 rounded-lg">
