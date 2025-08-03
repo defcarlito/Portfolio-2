@@ -198,6 +198,10 @@
   --shadow-2xl: var(--shadow-2xl);
 }
 
+@theme {
+  --text-shadow-glow:  0 0 4px rgb(0, 0, 0 / 0.5) 
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

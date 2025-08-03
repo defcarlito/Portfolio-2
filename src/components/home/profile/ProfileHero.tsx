@@ -47,7 +47,15 @@ export default function ProfileHero() {
               </Avatar>
             </div>
             <div className="flex flex-col items-start justify-center gap-1">
-              <h1 className="text-2xl font-medium">{"Hey, I'm Harrison Amorim 👋🏼"}</h1>
+              <h1 className="text-2xl font-medium">
+                {"Hey, I'm "}
+                <span className="bg-gradient-to-t from-10% to-50% from-foreground to-primary bg-clip-text text-transparent text-shadow-glow text-shadow-primary/75">
+                  {"Harrison Amorim "}
+                </span>
+                <span className="inline-block motion-rotate-loop-30 text-3xl">
+                  👋🏼
+                </span>
+              </h1>
               <div className="flex flex-row items-center gap-1 ml-[-2] text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4" />
                 <p>St. Paul, Minnesota</p>
