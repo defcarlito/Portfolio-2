@@ -41,7 +41,7 @@ export default function ProfileHero() {
         <div className="bg-card border h-fit md:py-4 p-4 rounded-lg shadow-sm">
           <div className="flex flex-row gap-6 items-center justify-start">
             <div>
-              <Avatar className="h-42 w-42 rounded-lg shadow-sm">
+              <Avatar className="h-42 w-42 rounded-sm shadow-sm">
                 <AvatarImage src="me.jpg" className="scale-300" />
                 <AvatarFallback>Me</AvatarFallback>
               </Avatar>
