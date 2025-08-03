@@ -11,7 +11,9 @@ export default function Home() {
       <div className="flex flex-col w-full max-w-4xl items-center justify-center">
         <div className="flex flex-col items-center gap-8 md:p-12 p-2 h-full">
           <div>
-            <ProfileHero />
+            <div className="motion-delay-0 motion-preset-slide-up">
+              <ProfileHero />
+            </div>
           </div>
           <div className="intersect:motion-preset-slide-up motion-delay-300 intersect-once w-full">
             <ExperienceEducation />
