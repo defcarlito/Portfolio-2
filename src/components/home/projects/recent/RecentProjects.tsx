@@ -60,7 +60,7 @@ export default function RecentProjects() {
           <CardContent>
             <CardDescription>
               An app to quickly build a collection of vocabulary words from
-              songs lyrics in your target language and extract them flashcard
+              songs lyrics in your target language and extract them to flashcard
               platforms like{" "}
               <a
                 href="https://quizlet.com/"
