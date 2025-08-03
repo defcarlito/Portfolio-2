@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Copy, FileDown, Github, Linkedin, Mail, MapPin } from "lucide-react"
+import { Copy, FileSearch2, Github, Linkedin, Mail, MapPin } from "lucide-react"
 
 export default function ProfileHero() {
   return (
@@ -33,7 +33,7 @@ export default function ProfileHero() {
           </div>
           <div>
             <Button size="icon" variant="outline">
-              <FileDown />
+              <FileSearch2 />
               Resume
             </Button>
           </div>
@@ -64,12 +64,12 @@ export default function ProfileHero() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-2">
-          <Button size="icon" variant="outline" className="pointer-events-none bg-card">
+        <div className="flex flex-row gap-1">
+          <Button size="icon" variant="outline" className="pointer-events-none bg-card rounded-r-xs">
             <Mail className="h-5 w-5" />
             amor7967 [at] stthomas [dot] edu
           </Button>
-          <Button size="icon" variant="outline">
+          <Button size="icon" variant="outline" className="rounded-l-xs">
             <Copy />
           </Button>
         </div>
