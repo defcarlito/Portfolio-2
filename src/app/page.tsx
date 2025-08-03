@@ -18,7 +18,7 @@ export default function Home() {
           <div className="intersect:motion-preset-slide-up motion-delay-300 intersect-once w-full">
             <ExperienceEducation />
           </div>
-          <div className="intersect:motion-preset-slide-up motion-delay-300 intersect-once">
+          <div className="intersect:motion-preset-slide-up motion-delay-300 intersect-once w-full">
             <TechStack />
           </div>
           <div className="intersect:motion-preset-slide-up motion-delay-300 intersect-once">

@@ -1,9 +1,10 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 
 export default function ExperienceTimeline() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-8">
       <div className="flex flex-row gap-4">
         <div className="flex flex-col w-fit relative">
           <Separator
@@ -26,17 +27,6 @@ export default function ExperienceTimeline() {
               <h1 className="text-muted-foreground text-xs">Rochester, Minnesota</h1>
             </div>
           </div>
-          <div className="flex flex-col gap-2 text-muted-foreground text-sm p-2">
-            <p>
-              • Provided technical support for hardware, software, and network
-              issues across clinical departments within the Rochester Campus.
-            </p>
-            <p>
-              • Troubleshot and resolved IT service requests, collaborating with
-              clinicians partly in high-stake settings to meet the needs of a
-              fast-paced hospital.
-            </p>
-          </div>
         </div>
       </div>
       <div className="flex flex-row gap-4">
@@ -56,20 +46,6 @@ export default function ExperienceTimeline() {
               <h1>Mayo Clinic</h1>
               <h1 className="text-muted-foreground text-xs">Remote</h1>
             </div>
-          </div>
-          <div className="flex flex-col gap-2 text-muted-foreground text-sm p-2">
-            <p>
-              • Researched and developed synthetic data strategies to support
-              model reliability.
-            </p>
-            <p>
-              • Investigated the role of high-quality synthetic data in
-              enhancing AI model performance for radiological report tasks.
-            </p>
-            <p>
-              • Contributed to efforts in improving model performance while
-              protecting patient data through non-identifiable datasets.
-            </p>
           </div>
         </div>
       </div>
