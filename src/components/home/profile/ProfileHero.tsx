@@ -38,16 +38,16 @@ export default function ProfileHero() {
             </Button>
           </div>
         </div>
-        <div className="bg-card border h-fit md:py-4 md:px-16 p-4 rounded-lg shadow-sm">
-          <div className="flex flex-row gap-6 items-center justify-center">
+        <div className="bg-card border h-fit md:py-4 p-4 rounded-lg shadow-sm">
+          <div className="flex flex-row gap-6 items-center justify-start">
             <div>
-              <Avatar className="h-42 w-42 rounded-lg shadow-sm hover:scale-125 hover:shadow-2xl transofrm transition duration-500">
+              <Avatar className="h-42 w-42 rounded-lg shadow-sm">
                 <AvatarImage src="me.jpg" className="scale-300" />
                 <AvatarFallback>Me</AvatarFallback>
               </Avatar>
             </div>
             <div className="flex flex-col items-start justify-center gap-1">
-              <h1 className="text-2xl font-medium">{"Hey, I'm Harrison 👋🏼"}</h1>
+              <h1 className="text-2xl font-medium">{"Hey, I'm Harrison Amorim 👋🏼"}</h1>
               <div className="flex flex-row items-center gap-1 ml-[-2] text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4" />
                 <p>St. Paul, Minnesota</p>

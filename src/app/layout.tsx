@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
+import ObserverProvider from "./intersect/ObserverProvider"
 
 export const metadata: Metadata = {
   title: "Harrison - Home",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ObserverProvider>{children}</ObserverProvider>
+      </body>
     </html>
   )
 }
