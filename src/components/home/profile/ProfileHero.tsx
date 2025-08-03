@@ -65,7 +65,7 @@ export default function ProfileHero() {
           </div>
         </div>
         <div className="flex flex-row gap-2">
-          <Button size="icon" variant="outline" className="pointer-events-none">
+          <Button size="icon" variant="outline" className="pointer-events-none bg-card">
             <Mail className="h-5 w-5" />
             amor7967 [at] stthomas [dot] edu
           </Button>
