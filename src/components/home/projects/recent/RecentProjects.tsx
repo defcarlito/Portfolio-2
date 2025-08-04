@@ -20,7 +20,7 @@ export default function RecentProjects() {
         </Button>
       </div>
       <div className="flex flex-col w-full gap-2">
-        <Card className="flex-1 w-full">
+        <Card className="flex-1 w-full intersect:motion-preset-fade-lg motion-delay-0 intersect-once">
           <CardHeader>
             <CardTitle>Personal Rocket League Performance Tracker</CardTitle>
           </CardHeader>
@@ -53,7 +53,7 @@ export default function RecentProjects() {
             <Badge>Next.js</Badge>
           </CardFooter>
         </Card>
-        <Card className="flex-1 w-full">
+        <Card className="flex-1 w-full intersect:motion-preset-fade-lg motion-delay-200 intersect-once">
           <CardHeader>
             <CardTitle>Language Learning Tool Through Songs</CardTitle>
           </CardHeader>
