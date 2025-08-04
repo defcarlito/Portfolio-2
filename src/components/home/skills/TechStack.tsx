@@ -26,7 +26,7 @@ export default function TeckStack() {
   return (
     <div className="flex flex-col w-full max-w-xl bg-primary-foreground border p-4 rounded-xl">
       <div className="flex flex-col md:flex-row gap-2">
-        <div className="bg-card flex flex-col border p-4 rounded-lg shadow-sm gap-4 flex-1 intersect:motion-preset-fade motion-delay-400 intersect-once">
+        <div className="bg-card flex flex-col border p-4 rounded-lg shadow-sm gap-4 flex-1 intersect:motion-preset-fade motion-delay-0 intersect-once">
           <div className="flex items-center gap-2">
 						<Zap className="w-4 h-4"/>
 						<p>Frontend</p>
@@ -43,7 +43,7 @@ export default function TeckStack() {
             ))}
           </div>
         </div>
-        <div className="bg-card flex flex-col border p-4 rounded-lg shadow-sm gap-4 flex-1 intersect:motion-preset-fade motion-delay-600 intersect-once">
+        <div className="bg-card flex flex-col border p-4 rounded-lg shadow-sm gap-4 flex-1 intersect:motion-preset-fade motion-delay-200 intersect-once">
           <div className="flex items-center gap-2">
 						<Zap className="w-4 h-4"/>
 						<p>Backend</p>
@@ -60,7 +60,7 @@ export default function TeckStack() {
             ))}
           </div>
         </div>
-        <div className="bg-card flex flex-col border p-4 rounded-lg shadow-sm gap-4 flex-1 intersect:motion-preset-fade motion-delay-800 intersect-once">
+        <div className="bg-card flex flex-col border p-4 rounded-lg shadow-sm gap-4 flex-1 intersect:motion-preset-fade motion-delay-400 intersect-once">
           <div className="flex items-center gap-2">
 						<Zap className="w-4 h-4"/>
 						<p>Database</p>
